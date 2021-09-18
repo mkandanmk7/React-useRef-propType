@@ -1,4 +1,5 @@
 import React from "react";
+import Props from "./Props";
 
 class Counter extends React.Component {
   constructor(props) {
@@ -23,6 +24,7 @@ class Counter extends React.Component {
           <button onClick={this.dec}>Dec</button>
           <button onClick={this.reset}>Reset</button>
         </div>
+        <Props name="Mythu" age={24} company="Guvi" gender="Male" />
       </>
     );
   }
