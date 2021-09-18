@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import CreateRef from "./Component/CreateRef";
 
+import { UseRef } from "./Component/useRef";
 // import PureFunction from "./Component/pureFunction";
 
 //PureComponent wil wont reRender if same value are changing;
@@ -38,6 +39,7 @@ class App extends React.PureComponent {
         </div> */}
 
         <CreateRef />
+        <UseRef />
       </>
     );
   }
